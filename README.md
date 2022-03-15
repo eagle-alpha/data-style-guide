@@ -1,13 +1,16 @@
 # Data Style Guide
 _Proper data hygiene for distributing data products_
 
-_by ([Eagle Alpha](https://eaglealpha.com))_
+_by [Eagle Alpha](https://eaglealpha.com)_
 
 ## File Type Best Practices
 
 - ([Choosing the right file type](file_types/choosing_the_right_file_type.md))
+
 - ([CSV (Comma Separated Value)] (file_types/csv.md))
+
 - ([Parquet] (file_types/parquet.md))
+
 - ([JSON] (file_types/json.md))
 
 ## General Data Best Practices
