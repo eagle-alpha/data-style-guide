@@ -26,9 +26,10 @@ _by [Eagle Alpha](https://eaglealpha.com)_
 
 ## Publishing Data to Flat Files
 
-- (["Delta" Updates](publishing/deltas.md)
-- (["Full Refresh" publications](publishing/full_refresh.md)
-- 
+- ["Delta" Updates](publishing/deltas.md)
+- ["Full Refresh" publications](publishing/full_refresh.md)
+- [Immutability and Retention of History](publishing/immutability.md)
+- [File Naming for Ongoing Publications](publishing/naming_files.md)
 
 
 
