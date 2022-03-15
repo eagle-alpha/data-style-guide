@@ -1,5 +1,6 @@
 # Data Style Guide
 _Proper data hygiene for distributing data products_
+
 _by [Eagle Alpha](https://eaglealpha.com)_
 
 ## General Data Best Practices
