@@ -1,6 +1,6 @@
 # Data Style Guide
 ## Proper data hygiene for distributing data products
-* Eagle Alpha *
+_Eagle Alpha_
 
 ## Guides
 
