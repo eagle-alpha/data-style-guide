@@ -1,19 +1,23 @@
 # Data Style Guide
-## Proper data hygiene for distributing data products
-_Eagle Alpha_
+_Proper data hygiene for distributing data products_
+_by [Eagle Alpha](https://eaglealpha.com)_
 
-## Guides
+## General Data Best Practices
 
-- Ruby ([Japanese](ruby.ja.md), [English](ruby.en.md))
-- Objective-C ([Japanese](objective-c.ja.md))
-- Swift ([Japanese](swift.ja.md), [English](swift.en.md))
-- Android Java ([Japanese](java.ja.md), [English](java.en.md), [Android Studio settings](https://github.com/cookpad/android-code-style))
-- CoffeeScript ([Japanese](coffeescript.ja.md))
-- Python ([English](python.en.md))
+- [Column / Field Names] (general/column_names.md)
+- [Folder Structures] (general/folder_structures.md)
+- 
+
+## File Type Best Practices
+
+- [Choosing the right file type](file_types/choosing_the_right_file_type.md)
+- [CSV (Comma Separated Value)] (file_types/csv.md)
+- [Parquet] (file_types/parquet.md)
+- [JSON] (file_types/json.md)
 
 ## Keywords
 
-- __"MUST"__ means required. Developers must abide by these conventions before merging into master.
-- __"SHOULD"__ means recommended. During code reviews, it is common for many small issues to be raised. While it is not critical for developers to fix all of these notes, they are encouraged to stay as close to the style guidelines as possible.
+- __"MUST"__ means required. Data contributors must abide by these conventions before data would be transferred by Eagle Alpha.
+- __"SHOULD"__ means recommended. Data contributors should consider aligning their data products to these conventions as they are common market practices that data buyers would expect to see used in data they are evaluating.
 
 ## License
