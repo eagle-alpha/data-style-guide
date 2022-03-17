@@ -22,7 +22,6 @@ _by [Eagle Alpha](https://eaglealpha.com)_
 - [Timestamps](data_types/timestamps.md)
 - [Entity References](data_types/entity_references.md)
 - [Floats, Doubles, and Ints](data_types/numeric.md)
-- 
 
 ## Publishing Data to Flat Files
 
