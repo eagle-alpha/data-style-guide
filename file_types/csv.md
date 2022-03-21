@@ -7,7 +7,7 @@
 - __[SHOULD]__ Use Unicode Basic Latin punctuation or symbols for the delimiter that are not commonly used in your specific data. Commas are not always the best option if your data has a lot of free text. "|" is a relatively commonly used delimiter as it is not common in human-written text. More exotic Unicode Punctuation and Symbols have a dropoff in support by most data parsers. 
 
 ### Quoting and Block Text Column Values
-- __[MUST]__ If a column value contains the delimiter, quotes must be used for every row of that column, not just for the columns where the delimiter occurs. It is recommended, but not required, in this case to quote all fields for safe measure. 
+- __[MUST]__ If a column value contains the delimiter, quotes must be used for every row of that column, not just for the columns where the delimiter occurs. It is recommended, but not required in this case, to quote all fields for safe measure. 
 - __[SHOULD]__ Use the " as the default quotechar. Not to be confused with the more exotic quotation marks that sometimes come onboard from document editors such as Microsoft Word. 
 - __[SHOULD]__ Remove newlines (especially Windows newlines which are multi-character __\r\n__) from inside quoted blocks of text contained inside a column value. Many data parsers use conflicting logic when interpreting newlines, with some just assuming ALL newline characters are actual newlines in the file itself, no matter what kind of quoting is used. 
 - __[SHOULD]__ Only ever use Linux newline character __\n__ for your actual line terminator. Windows newlines __\r\n__ are multi-character and certain parsers such as Spark just don't parse it, leaving a stray \r hanging around in the final column values.
