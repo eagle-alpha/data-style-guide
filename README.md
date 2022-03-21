@@ -38,3 +38,4 @@ _by [Eagle Alpha](https://eaglealpha.com)_
 - __"SHOULD"__ means recommended. Data contributors should consider aligning their data products to these conventions as they are common market practices that data buyers would expect to see used in data they are evaluating.
 
 ## License
+[See License here](LICENSE)
