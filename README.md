@@ -13,7 +13,6 @@ _by [Eagle Alpha](https://eaglealpha.com)_
 ## General Data Best Practices
 
 - [Column / Field Names](general/column_names.md)
-- [Null Values](general/null_values.md)
 - [Folder Structures](general/folder_structures.md)
 - [File Compression](general/compression.md)
 
