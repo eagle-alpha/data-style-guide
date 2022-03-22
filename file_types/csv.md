@@ -1,3 +1,4 @@
+[Back to Table of Contents](../README.md)
 # CSV (Comma Separated Value) File Type
 
 ### Delimiters

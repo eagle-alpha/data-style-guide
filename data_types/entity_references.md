@@ -1,1 +1,8 @@
+[Back to Table of Contents](../README.md)
 # Entity References
+
+Eagle Alpha does not state a preference for any entity symbology or taxonomy, however in the act of mapping data to identifiers, there are a few common things to consider.
+
+- __[SHOULD]__ consider the cardinality effects of designating certain fields as being the representation of an "entity" in a dataset. For example, if a "merchant_name" field is provided in the data, but is based on a generic cleansing of a raw text field without classification to a source of reference data, the resulting number of unique values of that field could be significantly more than the number of true entities in the dataset. Consider designating clearly "derived" fields that use reference data to generate the data for vs. cleansed fields that use generic rules without target references. 
+- __[SHOULD]__ Not combine identifiers that can be used in isolation to completely define an entity into a single column such as combining the Ticker Symbol, Exchange, and FIGI into a single string field. This makes filters and joins that are based on any of the individual fields computationally inefficient vs. doing a full match on a field value. 
+- __[SHOULD]__ Combine identifiers that do not completely describe an entity together into a single field. For example, neither Ticker or Exchange can completely describe an entity and should be supplied together. An example of this is the Ticker Symbol TSCO without the Exchange is ambiguous because that Ticker is shared by entities listed on different exchanges. 

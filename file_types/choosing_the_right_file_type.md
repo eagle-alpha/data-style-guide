@@ -1,3 +1,4 @@
+[Back to Table of Contents](../README.md)
 # Choosing the right file type
 
 ## TL:DR - We recommend Parquet in almost all cases
