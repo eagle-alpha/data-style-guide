@@ -26,7 +26,6 @@ _by [Eagle Alpha](https://eaglealpha.com)_
 
 - ["Delta" Updates](publishing/deltas.md)
 - ["Full Refresh" publications](publishing/full_refresh.md)
-- [Immutability and Retention of History](publishing/immutability.md)
 - [File Naming for Ongoing Publications](publishing/naming_files.md)
 
 
